@@ -41,3 +41,27 @@ if (idade >= 18) {
 }
 
 document.getElementById("ex2").innerHTML = texto;
+
+// Exemplo if Alinhado
+let idade2 = 18;
+let pais = "Brasil";
+let mensagem = "Você nao pode votar";
+
+if (idade2 >= 16) {
+    if (pais == "Brasil") {
+        mensagem = "Você pode votar";
+    }
+}
+
+document.getElementById("ex3").innerHTML = mensagem;
+
+//Exemplo de if Alinhado com operador logico AND (&&)
+let idade3 = 18;
+let pais2 = "Brasil";
+let mensagem2 = "Você nao pode votar";
+
+if (idade3 >= 16 && pais2 == "Brasil") {
+    mensagem2 = "Você pode votar";
+}
+
+document.getElementById("ex3").innerHTML = mensagem2;
