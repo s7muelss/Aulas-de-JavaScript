@@ -27,4 +27,7 @@ switch (opcoes) {
         break;
     default:
         alert("Opção inválida. Por favor, selecione uma operação válida.");
+
+        window.location.reload();
 }
+
