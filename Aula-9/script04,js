@@ -1,0 +1,24 @@
+//Criando a primeira funcao 
+function primeiraFuncao() {
+    return console.log("Somente a dor coletiva gera uniao.");
+}
+
+primeiraFuncao();
+
+//Realizando operacoes com funcoes
+function multiplicar(a,b){
+    return console.log(a*b);
+}
+
+let mult1 = multiplicar(10,5);
+let mult2 = multiplicar(4,8);
+let mult3 = multiplicar(30,3);
+
+const elemento = document.querySelector(".ex1");
+element.innerText = `
+    ${mult1} \n
+    ${mult2} \n
+    ${mult3} \n
+
+`;
+
